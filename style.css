@@ -4,14 +4,31 @@ html {
 }
 
 body {
+    color: white;
     background-color: green;
     border: 1px solid red;
-    width: 98vw;
+    width: 95vw;
     margin: 5px;
+
+    background-image: url("imagens-filmes/Valerian.e.a.Cidade.dos.Mil.planetas-002_2-cote.jpg");
+    background-attachment: fixed;
+}
         
+h1 {
+    padding: auto;
+    text-align: center;
 }
 
-a {
+li> a {
     color: white;
     margin-left: 5px;
 }
+
+p {
+    color: white;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 15px;
+    /* border: 2px solid black; */
+    
+    
