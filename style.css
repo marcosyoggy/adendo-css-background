@@ -1,0 +1,12 @@
+html {
+    width: 98vw;
+    background-color: black;
+}
+
+body {
+    background-color: green;
+    border: 1px solid red;
+    width: 98vw;
+    margin: 5px;
+        
+}
