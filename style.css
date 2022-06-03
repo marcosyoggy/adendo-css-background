@@ -6,12 +6,15 @@ html {
 body {
     color: white;
     background-color: green;
-    border: 1px solid red;
+    border: 5px dotted red;
     width: 95vw;
     margin: 5px;
 
-    background-image: url("imagens-filmes/Valerian.e.a.Cidade.dos.Mil.planetas-002_2-cote.jpg");
-    background-attachment: fixed;
+    background-image: url("imagens-filmes/001-1-corte.jpg");
+    background-repeat: no-repeat;
+    /* background-origin:border-box; */
+    background-position: top  right ;
+    
 }
         
 h1 {
@@ -30,5 +33,22 @@ p {
     text-indent: 30px;
     padding: 0px 15px;
     /* border: 2px solid black; */
-    
+
+    /* background-size: ; */
+}
+
+.main_Div {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+
+    background-image: url("imagens-filmes/Valerian.e.a.Cidade.dos.Mil.planetas-planeta-mul-002.jpg");
+    background-position: center left 15%;
+    /* background-size: contain; */
+    background-size: cover;
+    /* background-size: auto; */
+
+}
+
+
     
